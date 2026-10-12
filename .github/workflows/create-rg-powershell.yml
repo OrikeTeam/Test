@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       rgName:
-        description: "Nom du Resource Group"
+        description: "resourceGroupName"
         required: true
       location:
-        description: "Région Azure"
+        description: "location"
         required: true
         default: "westeurope"
 
