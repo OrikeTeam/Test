@@ -6,8 +6,8 @@ param(
     [string]$Location
 )
 
-Write-Host "🔐 Connexion à Azure via l'identité GitHub Actions..."
-Connect-AzAccount -Identity | Out-Null
+# Write-Host "🔐 Connexion à Azure via l'identité GitHub Actions..."
+# Connect-AzAccount -Identity | Out-Null
 
 Write-Host "📦 Vérification du Resource Group '$ResourceGroupName'..."
 
